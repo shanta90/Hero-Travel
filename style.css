@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 25px;
+  gap: 35px;
 }
 
 .hero-section div h1 {
@@ -105,7 +105,7 @@ body {
     padding: 13px 15px;
     border: none;
 }
-.hero-section div .btn {
+ .btn {
    font-size: 14px; 
    font-weight: 300;
    padding: 13px 15px;
@@ -114,9 +114,54 @@ body {
    background-color: #ff5500;
    color: #ffffffe0;
 }
-.hero-section div .btn:hover {
+ .btn:hover {
     transition: 0.5s;
     background-color: blueviolet;
     box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.678);
     cursor: pointer;
+}
+/* POPULAR TOURS DESIGN */
+.popular-tours {
+    display: flex;
+    gap: 80px;
+    padding-top: 30px;
+    background-color: rgba(85, 107, 47, 0.281);
+    height: 70%;
+}
+.popular-tours img {
+    width: 440px;
+    height: fit-content;
+
+}
+ .popular-tours .popular-content h1 {
+font-size: 48px;
+font-weight: bolder;
+color: #131318;
+
+}
+.popular-tours .popular-content p, ul {
+    font-size: 14px;
+    color: rgba(19, 19, 24, 0.7);
+
+}
+.popular-content ul {
+    font-size: 14px;
+    color: rgba(19, 19, 24, 0.7);
+  background-color: rgba(165, 42, 42, 0.219);
+  
+}
+.popular-content ul li {
+    margin-left: 25px;
+   line-height: 25px;
+}
+.popular-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* line-height: 18px; */
+}
+.popular-content .btn {
+    width: fit-content;
+    margin-bottom: 0;
+    
 }
