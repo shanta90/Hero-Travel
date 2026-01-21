@@ -126,11 +126,11 @@ body {
     gap: 80px;
     padding-top: 30px;
     background-color: rgba(85, 107, 47, 0.281);
-    height: 70%;
+    /* height: 70%; */
 }
 .popular-tours img {
     width: 440px;
-    height: fit-content;
+    height: 390px;
 
 }
  .popular-tours .popular-content h1 {
