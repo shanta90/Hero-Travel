@@ -6,14 +6,14 @@
     }
 body {
        font-family: "Mulish", sans-serif;
+       width: 85vw;
+       margin: 0 auto;
 }    
 /* NAVBAR DESIGN */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85vw;
-    margin: 0 auto;
     background-color: aqua;
 }
 .nav-logo {
@@ -50,4 +50,73 @@ body {
 
   color: #FF5400;
  
+}
+/* BANNER DESIGN */
+.hero-section {
+    background-image:  linear-gradient(to bottom, #131313ce, #d0d0ee00), url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-section div {
+    background-color: brown;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.hero-section div h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.hero-section div p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 65%;
+      
+   
+}
+.hero-section form {
+  
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    gap: 24px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.hero-section div form select  {
+  font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.5);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border: none;
+}
+.hero-section div .btn {
+   font-size: 14px; 
+   font-weight: 300;
+   padding: 13px 15px;
+    border-radius: 8px;
+    border: none;
+   background-color: #ff5500;
+   color: #ffffffe0;
+}
+.hero-section div .btn:hover {
+    transition: 0.5s;
+    background-color: blueviolet;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.678);
+    cursor: pointer;
 }
