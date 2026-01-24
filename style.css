@@ -312,3 +312,21 @@ margin-top: 10px;
     font-weight: blighter;
     color: #13131870;
 }
+/*  DEALS & DISCOUNT RELATED DESIGN */
+.deals-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #131318;
+    margin-bottom: 10px;
+}
+.deals-content p {
+    font-size: 14px;
+    color: #1313187e;
+    width: 48vw;
+    margin: 0 auto;
+}
+.deals-content {
+    text-align: center;
+    margin: 70px auto;
+
+}
