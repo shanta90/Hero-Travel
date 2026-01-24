@@ -422,3 +422,8 @@ margin-top: 25px;
     left: 0;
     margin-left: 45px;
 }
+.packages > .btn {
+    display: block;
+    text-align: center;
+    margin: 35px auto;
+}
