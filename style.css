@@ -278,12 +278,12 @@ border-radius: 5px;
 .choose-card {
    display: grid;
    grid-template-columns: repeat(2,1fr);
-   gap: 10px;
+   gap: 30px;
 }
 .card-1, .card-2 {
     border: 1px solid #ff55001c;
     border-radius: 15px;
-    padding: 30px 30px 30px 20px;
+    padding: 40px 35px 40px 20px;
     background-color: #ac161604;
 }
 .card-2 {
@@ -292,12 +292,12 @@ border-radius: 5px;
 .card-3 {
      border: 1px solid #ff55001c;
     border-radius: 15px;
-    padding: 30px 30px 30px 20px;
+  padding: 40px 35px 40px 20px;
     background-color: #ac161604;
     display: block;
 margin: 0 auto;
-width: 58%;
-margin-top: 10px;
+width: 56%;
+margin-top: 25px;
 }
 .card-3 h1 {
     font-size: 28px;
@@ -320,13 +320,105 @@ margin-top: 10px;
     margin-bottom: 10px;
 }
 .deals-content p {
-    font-size: 14px;
+    font-size: 15px;
     color: #1313187e;
-    width: 48vw;
+    width: 45vw;
     margin: 0 auto;
 }
 .deals-content {
     text-align: center;
     margin: 70px auto;
 
+}
+.deals-1 {
+    width: 80vw;
+    height: auto;
+   border-radius: 10px;
+   margin: 0 auto;
+   background-image: url("./Images/Group 39.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.deals-card {
+    width: 50%;
+    background-color: #ffffffce;
+  padding: 45px;
+  border-radius: 15px;
+  position: relative;
+ left: 20%;
+ margin-top: 100px;
+ margin-bottom: 100px;
+
+}
+.deals-icon {
+    display: flex;
+    gap:20px;
+}
+.deals-icon p {
+    font-size: 15px;
+    color: #131318da;
+    margin-top: 25px;
+      margin-bottom: 25px;
+}
+.deals-icon i {
+   color: #ff5500;
+}
+.deals-card h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #131318;
+    margin-bottom: 15px;
+}
+.deals-card p {
+    font-size: 15px;
+    color: #131318c4;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.deals-card h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 20px;
+}
+.deals-2 {
+    
+    width: 80vw;
+    height: auto;
+   border-radius: 10px;
+   margin: 0 auto;
+   background-image: url("./Images/Group 40.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+  
+}
+.deals-3 {
+    
+    width: 80vw;
+    height: auto;
+   border-radius: 10px;
+   margin: 0 auto;
+   background-image: url("./Images/Group 39.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.deals-2 > .deals-card {
+    left: 0;
+    margin-left: 45px;
 }
