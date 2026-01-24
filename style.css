@@ -246,3 +246,20 @@ border-radius: 5px;
    
    
 }
+/* WHY CHOOSE US RELATED DESIGN */
+.choose-content {
+   text-align: center;
+   margin: 35px auto;
+}
+.choose-content h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #131318;
+}
+.choose-content p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #131318bb;
+    width: 50vw;
+    margin: 10px auto;
+}
