@@ -7,7 +7,7 @@
 body {
        font-family: "Mulish", sans-serif;
        width: 85vw;
-       margin: 0 auto;
+       margin:  auto;
 }    
 /* NAVBAR DESIGN */
 .navbar {
@@ -436,7 +436,7 @@ margin-top: 25px;
   
 }
 .newsletter-section {
-margin-top: 15px;
+margin-top: 25px;
     padding: 50px 12px;
 }
 
@@ -468,4 +468,13 @@ margin-top: 15px;
 .newsletter-section .badge {
     padding: 25px 30px;
     width: 50%;
+}
+footer {
+   width: 100%;
+   padding: 80px;
+   margin-top: 20px;
+
+}
+.footer-img {
+    margin-bottom: 10px;
 }
