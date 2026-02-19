@@ -241,7 +241,7 @@ border-radius: 5px;
 .gallery h3 {
     text-align: center;
     margin: 0 auto;
-    background-color: #ff550098;
+    /* background-color: #ff550098; */
     font-size: 28px;
     font-weight: bolder;
     color: #FFFFFF;
