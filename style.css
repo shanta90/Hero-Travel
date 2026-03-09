@@ -484,3 +484,286 @@ footer {
     margin-bottom: 25px;
    
 }
+
+/* responsive design */
+/* ===================== 1200px ===================== */
+@media screen and (max-width:1200px){
+
+body{
+    width:90vw;
+}
+
+.popular-tours{
+    gap:50px;
+}
+
+.hero-section div h1{
+    font-size:50px;
+}
+
+.gallery h3{
+    left:30%;
+}
+
+.deals-card{
+    width:60%;
+}
+
+}
+
+
+/* ===================== 1024px ===================== */
+
+@media screen and (max-width:1024px){
+
+.hero-section{
+    height:450px;
+}
+
+.hero-section div h1{
+    font-size:45px;
+}
+
+.hero-section form{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.popular-tours{
+    flex-direction:column;
+    gap:40px;
+}
+
+.popular-content{
+    width:100%;
+}
+.popular-content .btn {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.popular-tours img{
+    width:100%;
+    margin-left:0;
+}
+
+.destination-content p{
+    width:80%;
+}
+
+.choose-card{
+    grid-template-columns:1fr;
+}
+
+.card-3{
+    width:80%;
+}
+
+.deals-card{
+    width:70%;
+    left:10%;
+}
+
+}
+
+
+/* ===================== 768px ===================== */
+
+@media screen and (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.navbar ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero-section{
+    height:420px;
+}
+
+.hero-section div h1{
+    font-size:36px;
+}
+
+.hero-section div p{
+    width:85%;
+}
+
+.gallery{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7{
+    grid-column: 1 / -1;
+}
+.gallery img{
+    width:100%;
+    display:block;
+  
+}
+
+
+.gallery h3{
+    left:35%;
+}
+
+.deals-card{
+    width:80%;
+    left:0;
+    margin-left:20px;
+}
+
+.deals-content p{
+    width:80%;
+}
+.packages-section > .btn {
+      width: 90%;
+      font-size: 16px;
+      margin: 25px auto 40px auto;
+  }
+
+  /* Flex: stacked row */
+  .packages-section .flex {
+      flex-direction: column;     /* row layout */
+      /* flex-wrap: wrap;  */
+      justify-content: center;  
+      align-items: center;      /* wrap if not enough space */
+      gap: 20px;
+  }
+ .relative h1 {
+    font-size: 16px;
+    left: 18%;
+ }
+ .relative img {
+    width: full;
+ }
+ .absolute {
+    left: 4%;
+    bottom: 3%;
+ }
+
+.choose-content p{
+    width:80%;
+
+}
+
+}
+
+
+/* ===================== 568px ===================== */
+
+@media screen and (max-width:568px){
+
+body{
+    width:95vw;
+}
+
+.nav-logo h1{
+    font-size:28px;
+}
+
+.hero-section{
+    height:auto;
+    padding:40px 10px;
+}
+
+.hero-section div h1{
+    font-size:30px;
+}
+
+.hero-section form{
+    flex-direction:column;
+    width:100%;
+}
+
+.hero-section form select,
+.hero-section form button{
+    width:100%;
+}
+
+.destination-content p{
+    width:90%;
+}
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+.gallery > div{
+    width:100%;
+}
+
+.gallery h3{
+    left:38%;
+}
+
+.deals-card{
+    width:90%;
+    margin-left:10px;
+}
+
+.card-3{
+    width:100%;
+}
+
+.deals-content p{
+    width:90%;
+}
+
+.choose-content p{
+    width:90%;
+}
+
+}
+
+
+/* ===================== 320px ===================== */
+
+@media screen and (max-width:320px){
+
+.hero-section div h1{
+    font-size:24px;
+}
+
+.hero-section div p{
+    font-size:13px;
+}
+
+.navbar ul{
+    gap:10px;
+}
+
+.navbar ul li a{
+    font-size:14px;
+}
+
+.btn{
+    font-size:14px;
+    padding:10px 12px;
+}
+
+.deals-card{
+    padding:25px;
+}
+
+.deals-card h1{
+    font-size:20px;
+}
+
+.deals-card p{
+    font-size:14px;
+}
+
+}
